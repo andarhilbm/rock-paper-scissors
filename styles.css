@@ -1,0 +1,129 @@
+body,
+h1, h2,
+p,
+.titles{
+    margin: 0px;
+    padding: 0px;
+}
+
+.game {
+    margin: 0px 400px 0px 400px;
+}
+
+.VS-color {
+    color: red;
+}
+ h1 {
+    text-align: center;
+    margin-bottom: 5%;
+ }
+
+p {
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.titles {
+    display: flex;
+    justify-content: space-between;
+    
+    padding-bottom: 2%;
+    border-bottom: 1px solid red;
+}
+
+.players-hands {
+    display: flex;
+    
+    justify-content:space-between;
+}
+
+.chooseOneFont{
+    font-size: 150%;
+    text-align: center;
+}
+
+.custom-select {
+    /* padding-right:10%; */
+    border: none;
+    border-right: 1px solid red;
+    text-align: center;
+    width: 100%;
+    padding-top: 5%;
+    font-size: 130%;
+}
+.ai {
+    /* padding-left:10%; */
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 42px;
+}
+
+.winner-message {
+    /* color: rgb(0, 228, 0); */
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.lightgray {
+  color: lightgray;
+}
+
+
+
+.player-score, .ai-score, .dash{
+  font-size: 24px;
+  padding: 10px;
+  text-align: center;
+}
+
+.score {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Styles for custom dropdown */
+.custom-select {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .select-selected {
+    background-color: #ffffff;
+    /* padding: 8px 16px; */
+    border: none;
+    cursor: pointer;
+    font-size: 42px; /* Default font size */
+  }
+  
+  .select-items {
+    display: none;
+    position: center;
+    background-color: #fff;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .select-items div {
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 32px; /* Font size for options */
+  }
+  
+  .select-items div:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* .select-items div.selected {
+    font-size: 20px; Larger font size for selected option
+  } */
+  
